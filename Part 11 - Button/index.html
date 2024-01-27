@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buttons page</title>
+    </head>
+
+    <body>
+        <a href="https://www.youtube.com", target="_blank">
+            <button style="font-size:25px; background-color: azure; color:blueviolet; border-radius: 2px;">
+                click me
+            </button>
+        </a>
+
+        <hr>
+
+        <a href="Page2.html", target="_blank">
+            <button style="font-size:25px; background-color: azure; color:blueviolet; border-radius: 2px;">
+                Go to page 2 fr
+            </button>
+        </a>
+
+        <hr>
+
+        <button onclick="doSomething()", style="font-size:25px; background-color: azure; color:blueviolet; border-radius: 2px;">
+            Greetings!
+        </button>
+        
+        <p id="Greeting">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum totam magni odio ducimus alias. Vitae dolore quidem voluptatem numquam praesentium nemo pariatur! Sapiente sed eligendi debitis non est expedita facere.</p>
+        <!-- In order to execute javascript code-->
+        <script>
+            function doSomething() {
+                document.getElementById("Greeting").innerHTML = "Good bye loremiso"
+            }
+        </script>
+    </body>
+</html>
