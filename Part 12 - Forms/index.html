@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        
+        <!-- method="GET" - GET is used for insensitive information, 
+             method="POST" - POST is used for confidential information, such as username && password
+             enctype="multipart/form-data" - is a type of encryption used when sending large files, splitting large files, 
+                                             , encrypting them, and sending them separately-->
+        <form action="index.php", method="POST", enctype="multipart/form-data">  
+
+            <label for="username">username: </label>
+            <!-- When <label> with id of "username" is clicked, it will click on the input box. -->
+            <!-- required - ensures that you have input before you can submit a form.-->
+            <input type="text", id="username", placeholder="Spongebob" minlength="6", maxlength="19", required><br> 
+
+            <label for="password">password: </label>
+            <input type="text", id="password", placeholder="12345678" minlength="6", maxlength="30", required><br>
+
+            <label for="email">email: </label>
+            <input type="email", id="email", placeholder="SSquarepants@gmail.com"><br>
+
+            <label for="phone">phone #:</label>
+            <input type="tel", id="phone", placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+            <label for="bday">birthday date:</label>
+            <input type="date", id="bday"><br>
+
+            <label for="quantity">quantity:</label>
+            <input type="number", id="quantity", min="0", max="99", value="1"><br> <!-- value= is the default value -->
+
+
+            <label for="title">title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio", id="Mr.", value="Mr.", name="title">
+            <label for="Mrs.">Mr.</label>
+            <input type="radio", id="Mrs.", value="Mrs.", name="title">
+            <label for="PhD.">Mr.</label>
+            <input type="radio", id="PhD.", value="PhD.", name="title"><br>
+            <!-- Putting the name= to "title" ensures that only 1 of each will be selected at 1 time.-->
+
+
+            <label for="payment">payment:</label>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select><br>
+
+
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox", id="subscribe"><br>
+
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="3px", cols="40px"></textarea> <!-- Changing dimension of textbox--> <br>
+
+            <label for="file">file:</label>
+            <!-- To accept multiple types of file input, use commas in accept= -->
+            <input type="file", id="file", accept="image/png, image/jpeg"><br> 
+
+            <br><hr><br>
+
+            <input type="reset"><br>
+            <input type="submit">
+
+        </form>
+
+    </body>
+</html>

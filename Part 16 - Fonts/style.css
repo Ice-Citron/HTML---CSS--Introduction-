@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "SixtyFour";
+    src: url(Sixtyfour/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
+}
+
+body {
+    font-family: Honk, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: "SixtyFour", 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
