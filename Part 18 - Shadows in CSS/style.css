@@ -1,0 +1,10 @@
+h1 {
+    font-size: 48px;
+    text-shadow: 3px 2px 1px rgb(96, 195, 124), 3px 3px 5px tomato;
+}
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    box-shadow: 3px 2px 1px blue;
+}
