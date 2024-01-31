@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    border: 5px dashed;
+    font-size: 5em;
+    width: 250px;
+    height:250px;
+}
+
+#box1 {
+    background-color: aqua;
+    margin-top: 25px;
+    margin-bottom: 6px;
+    margin-left: 22px;
+    margin-right: 21px ;
+}
+
+#box2 {
+    background-color: rgb(87, 32, 32);
+    margin-left: auto;
+}
+
+#box3 {
+    background-color: blanchedalmond;
+    margin: auto;
+}
