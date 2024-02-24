@@ -1,16 +1,16 @@
 body {
     background-color: purple;
 }
-h1 {
+h1 { /* affects all <h1></h1> elements */
     color: gold;
 }
 
-.fulcra{
-    color: greenyellow;
+.fulcra{ /* anything inside the "fulcra" class such as 2 of the paragraph will be affected*/
+    color: greenyellow; 
 }
 #p3 {
     color: rgb(256, 256, 256);
 }
-#p4 {
+#p4 { /* These affects things based on object id. */
     color: yellow;
 }

@@ -4,7 +4,7 @@ body {
 #p1 {
     color: tomato;
 }
-#p2 {
+#p2 { /* In VSCode you can use the colour selector instead of manually calibrating. */
     color: rgb(102, 222, 255);
 }
 #p3 {

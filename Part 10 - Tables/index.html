@@ -3,24 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Table Docs</title>
-    </head>
+        <title>Table Docs</title> <!-- Title of the tab in tab bar. -->    </head>
 
     <body>
         <h3>Store Hours</h3>
 
         <!-- Creating table, <tr> means table row, <th> means table headers, <td> means table data -->
-        <table border="1px", style="background-color: palevioletred;">
+        <table border="1px", style="background-color: palevioletred;"> <!-- Colour of the table's outline -->
+            
+            <!-- alligns text to center of each box. style="..." of each <tr> describes how the boxes in each row will look like, in this case 
+                 its filled in purple-->
             <tr align="center", style="background-color: purple;">
                 <th width="100">Sunday</th>
                 <th width="100">Monday</th>
                 <th width="100">Teusday</th>
-                <th width="100">Wednesday</th>
+                <th width="100">Wednesday</th> <!-- sort of column initialisation, initialises how wide it would be, how many columns this table 
+                                                    would have, and also what is the title for each column -->
                 <th width="100">Thrusday</th>
                 <th width="100">Friday</th>
                 <th width="100">Saturday</th>
             </tr>
-
+            
+            <!-- alligns text to center of each box. style="..." of each <tr> describes how the boxes in each row will look like, in this case 
+                 its filled in yellow in this case-->
             <tr align="center", style="background-color: yellow;">
                 <td>Closed</td>
                 <td>9-5</td>

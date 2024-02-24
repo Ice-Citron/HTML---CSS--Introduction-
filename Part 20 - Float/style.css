@@ -1,0 +1,19 @@
+body {
+    border: 3px solid;     /* creates a border line that is 3px in width, and is a solid line */
+    display: flow-root;    /* prevents the image that's floating from overflowing, anything that's floating will now stay within the container      
+                             (body) */
+}
+
+#girlBoy1 {
+    float: left; 
+    margin-right: 10px;
+}
+
+#girlBoy2 {
+    float: right;
+    margin-left: 15px;
+}
+
+/*
+    The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. The float property can have one of the following values: left - The element floats to the left of its container. right - The element floats to the right of its container.
+*/

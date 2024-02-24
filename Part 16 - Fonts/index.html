@@ -19,3 +19,25 @@
 
     </body>
 </html>
+
+<!-- Notes regarding the first 3 lines
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    This line suggests to the browser that it should start establishing a connection to the Google Fonts server (https://fonts.googleapis.com) in 
+    anticipation of making requests. This can help speed up the loading process because the connection is established earlier.
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    Similarly, this line initiates an early connection to another Google server that hosts font files (https://fonts.gstatic.com). The crossorigin 
+    attribute is used because the resources being fetched (in this case, fonts) are on a different origin than the originating site, and it ensures 
+    the browser handles these cross-origin requests properly, including the use of proper headers and security measures.
+
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    This line actually imports the font into your webpage. It does this by linking to a CSS file provided by Google Fonts which contains the 
+    necessary @font-face rules to include and use the font named "Honk" in your website. The display=swap part of the URL tells the browser that 
+    it can display text using a fallback system font until the requested font has finished loading, at which point the browser swaps the text to 
+    the requested font. This helps improve the perceived load time of the text on your webpage.
+
+    By including these lines in the <head> section of your HTML document, you're telling the browser to fetch and use the "Honk" font from Google 
+    Fonts, allowing you to use it anywhere on your webpage by referencing it in your CSS.
+
+-->

@@ -4,7 +4,7 @@ body {
 
 .box {
     border: 5px dashed;
-    font-size: 5em;
+    font-size: 3em;
     width: 250px;
     height:250px;
 }
@@ -26,3 +26,36 @@ body {
     background-color: blanchedalmond;
     margin: auto;
 }
+
+
+/*
+
+    This CSS snippet defines styling for the <body> element and elements with the class .box, as well as additional specific styles for elements with the IDs #box1, #box2, and #box3. Here's a breakdown of what each rule does:
+
+    body
+        margin: 10px;: Adds a 10-pixel margin around the entire body of the webpage, creating a little space between the content and the edges of the browser window.
+    
+    .box
+        border: 5px dashed;: Applies a 5-pixel-wide dashed border around elements with the class .box. The color of the border defaults to the current color of the element (typically black if not otherwise specified).
+        font-size: 3em;: Sets the font size inside .box elements to 3 times the size of the font that is inherited from their parent element.
+        width: 250px;: Specifies a fixed width of 250 pixels for .box elements.
+        height: 250px;: Sets a fixed height of 250 pixels for .box elements, making them square.
+    
+    #box1
+        background-color: aqua;: Colors the background of the element with ID #box1 aqua.
+        margin-top: 25px;: Adds a 25-pixel margin above #box1.
+        margin-bottom: 6px;: Adds a 6-pixel margin below #box1.
+        margin-left: 22px;: Adds a 22-pixel margin to the left of #box1.
+        margin-right: 21px;: Adds a 21-pixel margin to the right of #box1. These margins create space around #box1, separating it from other elements or the edge of the window.
+
+    #box2
+        background-color: rgb(87, 32, 32);: Colors the background of the element with ID #box2 a dark red, specified by its RGB values.
+        margin-left: auto;: Automatically adjusts the left margin of #box2 to align the element to the right within its container. This is often used for horizontal centering or right-aligning block elements.
+
+    #box3
+        background-color: blanchedalmond;: Sets the background color of the element with ID #box3 to blanchedalmond, a light tan color.
+        margin: auto;: Automatically adjusts the margins around #box3, centering it horizontally within its container. If #box3 is a block element and its container's width is larger than #box3's width, this will center #box3 within the container.
+
+    These styles collectively create a visually distinct appearance for elements with the .box class and further individualize the elements with specific IDs through background colors and margin adjustments, allowing for a variety of layouts and alignments.
+
+*/

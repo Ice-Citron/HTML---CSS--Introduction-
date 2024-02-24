@@ -11,3 +11,22 @@ pre{
     border-top: 3px solid tomato;
     border-left: 2px dashed lightcoral;
 }
+
+/*
+
+    This CSS snippet defines custom border styles for <h1> headers and <pre> elements in your HTML document. Here's what each part does:
+
+    <h1></h1>
+        border-style: dashed;: Sets the border around <h1> elements to be dashed. Instead of a solid line, the border will consist of dashes.
+        border-width: 3px;: The thickness of the border is set to 3 pixels.
+        border-color: rgb(113, 227, 90);: Defines the color of the border using RGB (red, green, blue) values. In this case, it's a shade of green.
+        border-radius: 6px;: Rounds the corners of the border, creating a more polished look. The radius of the curve at each corner is 6 pixels.
+    
+    <pre></pre>
+        border-bottom: 3px solid rgb(205, 85, 85);: Sets the bottom border of <pre> elements to be 3 pixels thick, solid, and a shade of red, defined by its RGB value.
+        border-top: 3px solid tomato;: The top border is also 3 pixels thick and solid, but it uses the named color "tomato", which is a bright red.
+        border-left: 2px dashed lightcoral;: The left border is set to be 2 pixels thick, dashed, and colored "lightcoral", which is a softer shade of red.
+    
+    The <pre> element does not have a defined style for its right border, meaning it will not display a border on the right side unless it inherits a style from another rule not shown here. This CSS snippet is useful for adding visual emphasis and decorative borders to specific elements on a webpage, enhancing the user interface and experience.
+
+*/

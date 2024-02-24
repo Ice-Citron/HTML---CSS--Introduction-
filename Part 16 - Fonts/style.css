@@ -1,16 +1,43 @@
 @font-face {
     font-family: "SixtyFour";
-    src: url(Sixtyfour/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
+    src: url(Sixtyfour/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf); 
+    
+    /* Comment regarding the code here
+
+        @font-face { ... }: This rule allows you to define a custom font called "SixtyFour" that isn't available by default in web browsers. It 
+        tells the browser how to load the font.
+
+        font-family: "SixtyFour";: Declares a name for the custom font, which you can then use in other CSS rules to apply this font to text.
+
+        src: url(Sixtyfour/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);: Specifies the path to the font file. This path is relative to the 
+        location of the CSS file. The backslash (\) before the comma is used to escape the comma in the filename, which might otherwise be 
+        misinterpreted by CSS. However, typically, filenames on the web avoid such characters to prevent encoding issues.
+    */
 }
 
 body {
-    font-family: Honk, Verdana, Geneva, Tahoma, sans-serif;
+    /* 
+        font-family: Honk, Verdana, Geneva, Tahoma, sans-serif;: This rule sets the default font stack for the entire webpage. It tries to use
+        the "Honk" font (previously loaded from Google Fonts). If "Honk" isn't available for any reason, it falls back to "Verdana", then "Geneva", 
+        "Tahoma", and finally any available sans-serif system font, in that order. 
+    */
+    font-family: Honk, Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 p {
+    /*
+        font-family: "SixtyFour", 'Lucida Sans', 'Lucida Sans Regular', sans-serif;: Sets the font stack for text within <p> tags. It will try 
+        to use the "SixtyFour" font first, then fall back to 'Lucida Sans', 'Lucida Sans Regular', and finally any sans-serif font if none of
+         the specified fonts are available.
+        font-size: 18px;: Sets the font size of the paragraph text to 18 pixels.
+        font-weight: lighter;: Adjusts the weight (thickness) of the font to be lighter than the default. This property can affect how bold or
+         thin text appears, but its effect might depend on the font being used and whether it supports different weights.
+        font-style: italic;: Makes the text italic. This property slants the text to the right, giving it an italicized appearance.
+    */
+
     font-family: "SixtyFour", 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: lighter; /* "font-weight" makes the text itself, thin to being extremely bold */
     font-style: italic;
 }
 

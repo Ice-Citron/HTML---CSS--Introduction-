@@ -16,7 +16,7 @@
 
             <label for="username">username: </label>
             <!-- When <label> with id of "username" is clicked, it will click on the input box. -->
-            <!-- required - ensures that you have input before you can submit a form.-->
+            <!-- required - ensures that you have input before you can submit a form, placeholder is what the gray text will be -->
             <input type="text", id="username", placeholder="Spongebob" minlength="6", maxlength="19", required><br> 
 
             <label for="password">password: </label>
@@ -37,7 +37,7 @@
 
             <label for="title">title:</label>
 
-            <label for="Mr.">Mr.</label>
+            <label for="Mr.">Mr.</label> <!-- because look like radio buttons? -->
             <input type="radio", id="Mr.", value="Mr.", name="title">
             <label for="Mrs.">Mr.</label>
             <input type="radio", id="Mrs.", value="Mrs.", name="title">
@@ -46,8 +46,8 @@
             <!-- Putting the name= to "title" ensures that only 1 of each will be selected at 1 time.-->
 
 
-            <label for="payment">payment:</label>
-            <select id="payment">
+            <label for="payment">payment:</label> 
+            <select id="payment"> <!-- <select> is used to create a drop down list -->
                 <option value="visa">visa</option>
                 <option value="mastercard">mastercard</option>
                 <option value="giftcard">giftcard</option>
@@ -55,19 +55,23 @@
 
 
             <label for="subscribe">subscribe:</label>
-            <input type="checkbox", id="subscribe"><br>
+            <input type="checkbox", id="subscribe"><br> <!-- creates a checkbox, as seen in the input type="checkbox"-->
 
-            <label for="comment">comment:</label>
-            <textarea id="comment" rows="3px", cols="40px"></textarea> <!-- Changing dimension of textbox--> <br>
+            <label for="comment">comment:</label> <!-- Creates a massive text area -->
+            <!-- Changing dimension of textbox // style="resize: none" for non-resizeable text box --> 
+            <textarea id="comment" rows="3px", cols="40px", style="resize: none"></textarea> 
+            
+            <br>
 
             <label for="file">file:</label>
             <!-- To accept multiple types of file input, use commas in accept= -->
+            <!-- Creates the widget which enables the user to choose a file from their local device -->
             <input type="file", id="file", accept="image/png, image/jpeg"><br> 
 
-            <br><hr><br>
+            <br><hr><br> <!-- single break line, horizontal spacing line, single break line -->
 
-            <input type="reset"><br>
-            <input type="submit">
+            <input type="reset"><br> <!-- This will reset the whole form when pressed. -->
+            <input type="submit"> <!-- This will submit the form. -->
 
         </form>
 

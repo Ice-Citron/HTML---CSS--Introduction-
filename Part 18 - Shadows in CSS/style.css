@@ -6,5 +6,32 @@ h1 {
     width: 100px;
     height: 100px;
     background-color: coral;
-    box-shadow: 3px 2px 1px blue;
+    box-shadow: 3px 2px 1px blue; /* Colour of the box && box-shadow created for app. */
 }
+
+/*
+
+    This CSS snippet is designed to style <h1> headers and an element with an ID of #box1 in your HTML document. Here's how each part of 
+    the snippet affects the styling:
+
+    h1
+        font-size: 48px;: Sets the font size of <h1> elements to 48 pixels, making the text larger and more prominent.
+        text-shadow: 3px 2px 1px rgb(96, 195, 124), 3px 3px 5px tomato;: Applies two layers of text shadow to the <h1> text. The first shadow 
+        is offset 3 pixels to the right and 2 pixels down from the text, with a blur radius of 1 pixel and colored in a shade of green 
+        (specified by its RGB value). The second shadow is further offset by 3 pixels to the right and 3 pixels down with a larger blur radius 
+        of 5 pixels, colored "tomato", a bright red. This creates a layered shadow effect that adds depth and contrast to the text.
+    
+    #box1
+        width: 100px;: Sets the width of the element with ID #box1 to 100 pixels.
+        height: 100px;: Sets the height of #box1 to 100 pixels, making it a square.
+        background-color: coral;: Colors the background of #box1 with the named color "coral", a pinkish-orange hue.
+        box-shadow: 3px 2px 1px blue;: Applies a box shadow that is offset 3 pixels to the right and 2 pixels down from the element, with a
+        blur radius of 1 pixel. The shadow is colored blue. This shadow effect adds depth to the element, making it appear as though it is 
+        raised off the page.
+    
+    The styling for #box1 demonstrates how to create a visually distinct square element with a solid background color and a shadow, enhancing 
+    its three-dimensional appearance on the webpage. The <h1> styling makes the header text stand out significantly through its size and the 
+    creative use of text shadows.
+
+
+*/
